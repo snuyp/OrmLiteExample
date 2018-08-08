@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/car_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/ic_directions_car_black_24dp"
+            />
+        <EditText
+            android:id="@+id/edit_car_name"
+            android:hint="@string/enter_name"
+            android:layout_margin="4dp"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edit_car_price"
+            android:hint="@string/enter_price"
+            android:layout_margin="4dp"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edit_car_speed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:textStyle="italic"
+            android:hint="@string/enter_speed"/>
+        <EditText
+            android:id="@+id/edit_car_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:textStyle="italic"
+            android:hint="@string/enter_weight"/>
+        <TextView
+            android:id="@+id/car_id"
+            android:layout_width="wrap_content"
+            android:layout_margin="4dp"
+            android:text="@string/id_car"
+            android:layout_gravity="right"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/button_car_edit"
+            android:text="@string/Save"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

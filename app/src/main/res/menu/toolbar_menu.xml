@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <!--<item-->
+        <!--android:id="@+id/action_search"-->
+        <!--android:icon="@drawable/ic_search_black_24dp"-->
+        <!--android:title="@string/search"-->
+        <!--app:showAsAction="ifRoom|collapseActionView"-->
+        <!--app:actionViewClass="android.support.v7.widget.SearchView"/>-->
+
+    <item
+        android:id="@+id/sorted_by_price"
+        app:showAsAction="never"
+        android:title="@string/sorted_by_price"/>
+    <item
+        android:id="@+id/sorted_by_speed"
+        app:showAsAction="never"
+        android:title="@string/sorted_by_speed"/>
+    <item
+        android:id="@+id/add_car"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="@string/add_car"
+        />
+
+</menu>

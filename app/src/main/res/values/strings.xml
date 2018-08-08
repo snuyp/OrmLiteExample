@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AutoOrmLiteTest</string>
+    <string name="price">Price</string>
+    <string name="weight">Weight</string>
+    <string name="speed">Speed</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_car">Add car</string>
+    <string name="enter_price">Enter price</string>
+    <string name="enter_speed">Enter speed</string>
+    <string name="enter_weight">Enter weight</string>
+    <string name="enter_name">Enter name</string>
+    <string name="id_car">Id_car</string>
+    <string name="ok">Ok</string>
+    <string name="sorted_by_price">Sorted by price</string>
+    <string name="sorted_by_speed">Sorted by speed</string>
+    <string name="Save">save</string>
+</resources>
